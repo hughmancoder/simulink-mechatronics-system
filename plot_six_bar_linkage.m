@@ -27,10 +27,10 @@ grid on; ax1.GridAlpha = 0.3; % Subtle grid
 ax2 = nexttile;
 hold on;
 plot(t, spring_force, 'Color', cOrange, 'LineWidth', 1.8);
-plot(t, contact_force, 'Color', cYellow, 'LineWidth', 1.5, 'LineStyle', '--');
+% plot(t, contact_force, 'Color', cYellow, 'LineWidth', 1.5, 'LineStyle', '--');
 title('Force Profile Analysis', 'FontSize', 12, 'FontWeight', 'bold');
 ylabel('Force (N)');
-legend('Spring/Damper', 'Ground Contact', 'Location', 'best');
+% legend('Spring/Damper', 'Ground Contact', 'Location', 'best');
 grid on; ax2.GridAlpha = 0.3;
 
 % --- Subplot 3: Separation Distance ---
