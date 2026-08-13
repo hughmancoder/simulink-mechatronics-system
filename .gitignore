@@ -1,0 +1,27 @@
+# macOS metadata
+.DS_Store
+
+# Microsoft Office temporary/lock files
+~$*.docx
+~$*.xlsx
+~$*.pptx
+
+# MATLAB editor backups and autosaves
+*.asv
+*.m~
+*.autosave
+autosave/
+
+# Simulink generated build, cache, and code-generation outputs
+slprj/
+*.slxc
+codegen/
+simulink_cache/
+sccprj/
+
+# MATLAB session and crash-recovery files
+*.mat~
+*.tmp
+*.bak
+*.mcr
+crash_dump.*
